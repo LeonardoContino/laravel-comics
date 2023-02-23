@@ -2,8 +2,12 @@ header {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 20px;
+    .container {
+        width: 1200px;
+        margin: auto;
+    }
     img {
         width: 80px;
     }

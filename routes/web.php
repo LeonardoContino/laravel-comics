@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
+   
     return view('layouts.home');
 })->name('home');
 
@@ -32,3 +33,15 @@ Route::get('/comics', function () {
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');
+
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');
+
+Route::get('/games', function () {
+    return view('games');
+})->name('games');
+
+Route::get('/collections', function () {
+    return view('collections');
+})->name('collections');
