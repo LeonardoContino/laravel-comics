@@ -15,6 +15,7 @@
         @include('layouts.main')
     </main>
    
+   @include('layouts.home')
 
 </body>
 </html>
