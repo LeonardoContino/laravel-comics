@@ -54,11 +54,11 @@
             <div class="col-icon-follow d-flex">
                 <h4>FOLLOW US</h4>
                 <figure>
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-twitter.png" alt="">
-                    <img src="../assets/img/footer-youtube.png" alt="">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
-                    <img src="../assets/img/footer-periscope.png" alt="">
+                    <img src="{{ asset('images/footer-facebook.png')}}" alt="">
+                    <img src="{{ asset('images/footer-youtube.png')}}" alt="">
+                    <img src="{{ asset('images/footer-twitter.png')}}" alt="">
+                    <img src="{{ asset('images/footer-pinterest.png')}}" alt="">
+                    <img src="{{ asset('images/footer-periscope.png')}}" alt="">
 
 
 
