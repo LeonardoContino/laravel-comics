@@ -10,6 +10,10 @@
 </head>
 <body>
     @include('includes.header')
+
+    <main>
+        @include('layouts.main')
+    </main>
    
 
 </body>
